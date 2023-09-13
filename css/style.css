@@ -1,0 +1,12 @@
+.filter,
+.add-client{
+    display: inline-block;
+}
+.header-item{
+    display: inline-block;
+    margin: 50px;
+}
+.client-item{
+    display: inline-block;
+margin: 30px;
+}
