@@ -8,13 +8,15 @@
     margin: 30px;
 }
 .client-data-item{
+    width: 80px;
+    margin: 15px;
     display: inline-block;
-    margin: 30px;
     vertical-align: middle;
+    word-break:break-all;
 }
 .client-data-item img{
-    width: 30px;;
+    width: 40px;
 }
 .client-data-item.date{
-    
+    width: 180px;
 }
