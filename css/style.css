@@ -1,11 +1,26 @@
+body{
+
+}
+ {
+    box-sizing:border-box;
+ }  
+.container{
+    background-color: aliceblue;
+    border:solid 1px;
+    border-radius: 3%;
+    margin: 30px;
+}
 .filter,
 .add-client{
     display: inline-block;
 }
+.header-list{
+    margin-left:120px;
+}
 .header-item{
-    vertical-align: middle;
+    width: 80px;
     display: inline-block;
-    margin: 30px;
+    margin: 15px;
 }
 .client-data-item{
     width: 80px;
@@ -17,6 +32,7 @@
 .client-data-item img{
     width: 40px;
 }
-.client-data-item.date{
+.client-data-item.date,
+.header-item.date{
     width: 180px;
 }
