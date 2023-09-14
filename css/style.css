@@ -3,10 +3,15 @@
     display: inline-block;
 }
 .header-item{
+    vertical-align: middle;
     display: inline-block;
-    margin: 50px;
+    margin: 30px;
 }
-.client-item{
+.client-data-item{
     display: inline-block;
-margin: 30px;
+    margin: 30px;
+    vertical-align: middle;
+}
+.client-data-item img{
+    width: 30px;;
 }
